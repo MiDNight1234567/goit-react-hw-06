@@ -1,0 +1,47 @@
+.actorCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  overflow: hidden;
+  height: 236px;
+}
+
+.actorCardContainer {
+  display: flex;
+  align-items: center;
+  width: 128px;
+  border-radius: 8px;
+}
+
+.actorImg {
+  width: 128px;
+}
+
+@media screen and (min-width: 768px) {
+  .actorCard {
+    height: 264px;
+  }
+
+  .actorImg {
+    width: 144px;
+  }
+
+  .actorCardContainer {
+    width: 144px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .actorCard {
+    height: 284px;
+  }
+
+  .actorImg {
+    width: 164px;
+  }
+
+  .actorCardContainer {
+    width: 164px;
+  }
+}

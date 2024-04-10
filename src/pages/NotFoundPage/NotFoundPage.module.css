@@ -1,0 +1,27 @@
+.notFoundPage {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.infoMessage {
+  font-size: 16px;
+  color: var(--dark-green);
+  margin-bottom: 24px;
+}
+
+.backHome {
+  margin-top: 50px;
+  border-radius: 8px;
+  padding: 12px 20px;
+  color: var(--white);
+  background-color: var(--main-green);
+  border: 1px solid var(--light-green);
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.backHome:hover {
+  color: var(--dark-green);
+  background-color: var(--main-yellow);
+  border: 1px solid var(--main-green);
+}

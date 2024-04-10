@@ -1,0 +1,52 @@
+.mainCast {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listCast {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.castItem {
+  width: 136px;
+  height: 238px;
+  padding: 8px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 15px;
+
+  background-color: rgba(255, 255, 0, 0.1);
+  border: 1px solid rgba(23, 40, 14, 0.1);
+  box-shadow: 20px 9px 20px 20px rgba(89, 127, 85, 0.03);
+}
+
+.infoMessage {
+  font-size: 16px;
+  color: var(--dark-green);
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .castItem {
+    width: 164px;
+    font-size: 14px;
+    height: 264px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .castItem {
+    width: 184px;
+    height: 284px;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,13 @@
+.movieMainPage {
+  margin-top: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 140px;
+}
+
+.infoMessage {
+  font-size: 16px;
+  color: var(--dark-green);
+  text-align: center;
+  margin-bottom: 24px;
+}

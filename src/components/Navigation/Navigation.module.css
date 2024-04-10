@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-top: 4px solid var(--dark-green);
+  border-bottom: 4px solid var(--dark-green);
+  gap: 30px;
+  background-color: rgb(13, 0, 255);
+  padding: 20px;
+}
+
+.headerLink {
+  display: flex;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--main-green);
+  border: 1px solid var(--light-green);
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.headerLink:hover {
+  color: var(--dark-green);
+  background-color: rgba(61, 250, 3, 0.595);
+  border: 1px solid var(--main-green);
+}
+
+.active {
+  color: var(--dark-green);
+  background-color: rgba(61, 250, 3, 0.595);
+  border: 1px solid var(--main-green);
+}

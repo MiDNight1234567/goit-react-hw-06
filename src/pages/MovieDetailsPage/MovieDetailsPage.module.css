@@ -1,0 +1,117 @@
+.mainMovieInfo {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.movieInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.movieImg {
+  border: 2px solid var(--main-green);
+  width: 280px;
+}
+
+.genres {
+  display: flex;
+  gap: 15px;
+}
+
+.addInfo {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 24px;
+  border-top: 4px solid var(--dark-green);
+  border-bottom: 4px solid var(--dark-green);
+  background: var(--main-green);
+  color: var(--white);
+}
+
+.addLinks {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background-color: var(--main-green);
+}
+
+.addItems {
+  display: flex;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--main-green);
+  border: 1px solid var(--light-green);
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.addItems:hover {
+  color: var(--dark-green);
+  background-color: var(--main-yellow);
+  border: 1px solid var(--main-green);
+}
+
+.active {
+  color: var(--dark-green);
+  background-color: var(--main-yellow);
+  border: 1px solid var(--main-green);
+}
+
+.infoMessage {
+  font-size: 16px;
+  color: var(--dark-green);
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.goBack {
+  display: inline-block;
+  margin-top: 24px;
+  margin-left: 24px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--main-green);
+  border: 1px solid var(--light-green);
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.goBack:hover {
+  color: var(--dark-green);
+  background-color: var(--main-yellow);
+  border: 1px solid var(--main-green);
+}
+
+@media screen and (min-width: 768px) {
+  .movieImg {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .movieImg {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 624px) {
+  .mainMovieInfo {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .addInfo {
+    flex-direction: column;
+  }
+}
